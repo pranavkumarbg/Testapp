@@ -17,7 +17,8 @@ import com.google.android.gms.gcm.GcmListenerService;
 
 public class MyGcmListenerService extends GcmListenerService {
     private static final String TAG = "MyGcmListenerService";
-
+    // change
+    String s;
     /**
      * Called when message is received.
      *
